@@ -1,88 +1,181 @@
-body {
+
+@media screen and (max-width: 480px) {
+    body {
     background-color:rgb(22, 21, 21) ;
     display: flex ;
     gap: 30px;
     flex-direction: column;
-}
-.collection{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-.game{
-    border-style: solid;
-    border-width: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 200px;
-    border-color: blueviolet;
-    box-shadow: 0px 0px 20px blueviolet;
-    background-color: rgb(29, 16, 27);
+    }
+    img{
+        border-style: solid;
+        border-radius: 5px;
+        border-color: violet;
+        max-width: 40%;
+    }
+    .collection{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .game{
+        border-style: solid;
+        border-width: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        border-color: blueviolet;
+        box-shadow: 0px 0px 20px blueviolet;
+        background-color: rgb(29, 16, 27);
+        max-width: 97%;
+    }
+    .header{
+        padding: 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: blueviolet;
+        box-shadow: 0px 0px 20px blueviolet;
+        background-color: rgb(29, 16, 27);
+        max-width: 97%;
+    }
     
+    .RowOne{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .RowTwo{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    h1{
+        text-align: center;
+        font-family: Arial;
+        color:blueviolet;
+    }
+    h2{
+        margin: 5px;
+        padding: 0px;
+        font-family: Arial;
+        color:blueviolet;
+    }
+    h4{
+        margin: 5px;
+        font-family: Arial;
+        color:violet;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial black;
+        padding: 5px;
+        width: 50%;
+        background-color: blueviolet;
+        border-radius: 8px;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color:rgb(29, 16, 27);
+        color: blueviolet;
+        border-style: solid;
+        border-width: 2px;
+        border-color: blueviolet;
+        
+    }
 }
-.header{
-    padding: 20px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: blueviolet;
-    box-shadow: 0px 0px 20px blueviolet;
-    background-color: rgb(29, 16, 27);
-}
-.Pedro {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-.Hendrick {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  .RowOne{
-      display: flex;
-      flex-direction: row;
-  }
-  .RowTwo{
-    display: flex;
-    flex-direction: row;
-}
-h1{
-    text-align: center;
-    font-family: Arial;
-    color:blueviolet;
-}
-h2{
-    margin: 5px;
-    padding: 0px;
-    font-family: Arial;
-    color:blueviolet;
-}
-h4{
-    margin: 5px;
-    font-family: Arial;
-    color:violet;
-}
-a{
-    display: flex;
-    flex-direction: column;
-    font-family: Arial black;
-    padding: 5px;
-    width: 50%;
-    background-color: blueviolet;
-    border-radius: 8px;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-a:hover{
-    background-color:rgb(29, 16, 27);
-    color: blueviolet;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blueviolet;
-    
+@media screen and (min-width: 480px) {
+    body {
+        background-color:rgb(22, 21, 21) ;
+        display: flex ;
+        gap: 30px;
+        flex-direction: column;
+    }
+    img{
+        border-style: solid;
+        border-radius: 5px;
+        border-color: violet;
+        max-width: 23%;
+    }
+    .collection{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .game{
+        border-style: solid;
+        border-width: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        border-color: blueviolet;
+        box-shadow: 0px 0px 20px blueviolet;
+        background-color: rgb(29, 16, 27);
+        max-width: 97%;
+    }
+    .header{
+        padding: 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: blueviolet;
+        box-shadow: 0px 0px 20px blueviolet;
+        background-color: rgb(29, 16, 27);
+        max-width: 97%;
+    }
+    .RowOne{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .RowTwo{
+        display: flex; 
+        flex-direction: row;
+        gap: 5px;
+    }
+    h1{
+        text-align: center;
+        font-family: Arial;
+        color:blueviolet;
+    }
+    h2{
+        margin: 5px;
+        padding: 0px;
+        font-family: Arial;
+        color:blueviolet;
+    }
+    h4{
+        margin: 5px;
+        font-family: Arial;
+        color:violet;
+    }
+    a{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial black;
+        padding: 5px;
+        width: 50%;
+        background-color: blueviolet;
+        border-radius: 8px;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color:rgb(29, 16, 27);
+        color: blueviolet;
+        border-style: solid;
+        border-width: 2px;
+        border-color: blueviolet;
+        
+    }
 }
