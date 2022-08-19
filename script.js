@@ -35,3 +35,4 @@ function colorChoice(){
 }
 
 colorChoice();
+setInterval(colorChoice, 1000)
